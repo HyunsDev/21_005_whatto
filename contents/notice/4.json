@@ -1,0 +1,12 @@
+{
+    "title" : "[공지] 학교 개학 추가 연기",
+    "notitle" : "false",
+    "id" : "4",
+    "school":["all"],
+    "grade":["1","2","3","4","5","6"],
+    "created":"20200302",
+    "kind":["high", "middle", "low"],
+    "author":"hyuns",
+    "start_term" : "20200302",
+    "end_term" : "20200301"
+}

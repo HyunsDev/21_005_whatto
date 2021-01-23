@@ -1,0 +1,12 @@
+{
+    "title" : "전국 개학 추가 연기",
+    "id" : "2",
+    "notitle":"true",
+    "school":["all"],
+    "grade":["1","2","3","4","5","6"],
+    "created":"20200220",
+    "kind":["low", "middle", "high"],
+    "author":"hyuns",
+    "start_term" : "20200220",
+    "end_term" : "20200406"
+}

@@ -1,0 +1,12 @@
+{
+    "title" : "내일뭐함 초등학교",
+    "id" : "1",
+    "school":["all"],
+    "grade":["1","2","3","4","5","6"],
+    "created":"20200220",
+    "kind":["low"],
+    "author":"hyuns",
+    "start_term" : "20200220",
+    "end_term" : "20200222"
+}
+                

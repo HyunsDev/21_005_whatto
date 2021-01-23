@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,800&display=swap');
+
+html {
+    font-size: 16px;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: rgb(253, 253, 254);
+    color: #606060;
+    font-size: 0.9rem;
+    word-break: keep-all;
+    overflow-x: hidden;
+    line-height: 1.5rem;
+    user-select: none;
+    font-weight: 400;
+}
+
+.update_box {
+    font-size: 1rem;
+}
+
+.top {
+    text-align: left;
+    position: fixed;
+    width: 100%;
+    height: 3.1rem;
+    left: 0;
+    top: 0;
+    z-index: 3;
+    box-shadow: 1px 0 7px 0 rgb(208, 208, 235);
+    color: rgb(28, 165, 124);
+    background-color: white;
+}
+
+.main{
+    margin-top: 0.75rem;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    font-weight: 400;
+    font-family: 'Do Hyeon';
+    float: left;
+}
+
+.set {
+    float: right;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.sidenav {
+    height: 100%;
+    width: 70%;
+    position: fixed;
+    z-index: 2;
+    top: 3rem;
+    right: 0;
+    background-color: rgb(236, 236, 236);
+    overflow-x: hidden;
+    transition: 0.5s;
+    margin-left: 70%;
+    margin-right: -70%;
+  }
+
+.sidein {
+    padding: 1rem;
+}
+
+.all{
+    transition: 0.5s;
+}
+
+@media ( min-width: 768px ) {
+    body {
+        font-size: 1rem;
+        padding-left: 35%;
+        padding-right: 35%;
+        min-width: 450px;
+    }
+    .ot{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+
+    .top img{
+        /* display: none; */
+        float: left;
+    }
+
+    .back {
+        display: none;
+    }
+
+    .sidenav {
+        max-width: 300px;
+    }
+
+  }
+
+  .box {
+    margin-top: 1rem;
+    background-color: #FFFFFF;
+    border: 1px, solid, #CCCCCC;
+    border-radius: 10px;
+    height: auto;
+    padding-right: 25px;
+    padding-left: 30px;
+    padding-top: 0.3rem;
+    padding-bottom: 1rem;
+    box-shadow: 0 2px 8px 0 rgb(208, 208, 235);
+}
+
+.memu {
+    margin-top: 1rem;
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: 10px;
+    height: 3rem;
+    border-radius: 10px;
+    border-width: 0px;
+    border-style: solid;
+    background-color: #FFFFFF;
+    color: rgb(37, 180, 137);
+    box-shadow: 0 2px 8px 0 rgb(208, 208, 235);
+    cursor: pointer;
+}
+
+.action{
+    margin-top: 3.5rem;
+}
+
+.action1 {
+    text-align: center;
+    float: left;
+    /* background-color: #FFFFFF; */
+    background: linear-gradient(135deg, rgb(0, 145, 212), #6FB1FC);
+    border: 1px, solid, #CCCCCC;
+    width: calc( 50% - 0.5rem );
+    border-radius: 10px;
+    left: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    box-shadow: 0 2px 8px 0 rgb(208, 208, 235);
+    cursor: pointer;
+}
+
+.action2 {
+    text-align: center;
+    float: right;
+    /* background-color: #FFFFFF; */
+    background: linear-gradient(45deg, #2193b0, #6dd5ed);
+    border: 1px, solid, #CCCCCC;
+    width: calc( 50% - 0.5rem );
+    border-radius: 10px;
+    right: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    box-shadow: 0 2px 8px 0 rgb(208, 208, 235);
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(32, 179, 134);
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ol, ul {
+    line-height: 1.5rem;
+    counter-reset: item;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.li { display: block; }
+
+.li:before { 
+    content: counter(item)"교시 : "; 
+    counter-increment: item 
+}
+
+
+h1 {
+    font-size: 1.2rem;
+    float: left;
+}
+
+h2 {
+    font-size: 1rem;
+    display: inline-block;
+}
+
+h3 {
+    font-family: 'Do Hyeon';
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 3px;
+    color: rgb(32, 179, 134);
+
+}
+
+hr {
+    background-color: #707070;
+    border: solid 0.3px;
+}
+
+.class {
+    padding-right: 10px;
+    display: inline-block;
+
+}
+
+
+.label{
+    margin-top: -0.5rem;
+    font-size: 0.7rem;
+    margin-bottom: 0rem;
+    color: #afafaf;
+}
+
+.back_icon {
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+/* .memubar{
+    margin-top: 3rem;
+    text-align: center;
+} */
+
+.footer {
+    margin-bottom: 5rem;
+}
+
+.oneline{
+    /* position: fixed; */
+    /* margin-left: -1rem; */
+    
+    bottom: 0;
+    color: white;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    /* width: 100%; */
+    margin-top: 1rem;
+    background-color: #68a9e6;
+    border: 1px, solid, #CCCCCC;
+    border-radius: 6px;
+    height: auto;
+    box-shadow: 0 2px 8px 0 rgb(208, 208, 235);
+    z-index: 5;
+}
+
+.dday_box {
+    /* background-color: rgb(37, 180, 137); */
+    background: linear-gradient(45deg, #02aab0, #00cdac);
+}
+
+.dday{
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 0.4rem;
+    font-weight: 800;
+}
+
+
+table{
+    border-width: 1px;
+    border-color: #000000;
+    border-style: solid;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+td{
+    border-width: 1px;
+    border-color: rgb(37, 180, 137);
+    border-style: solid;
+    height: 25px;
+}
+
+.cus {
+    cursor: pointer;
+}
+
+th {
+    border-width: 1px;
+    border-color: rgb(37, 180, 137);
+    border-style: solid;
+    background-color: rgb(37, 180, 137);
+    color: #FFFFFF;
+    height: 30px;
+}
+
+.bicon {
+    font-size: 2rem;
+    float: left;
+}
+
+.btitle{
+    float: right;
+    width: 80%;
+}
+
+

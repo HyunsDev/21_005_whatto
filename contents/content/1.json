@@ -1,0 +1,12 @@
+{
+    "title" : "🕓 시간표",
+    "notitle" : "true",
+    "id" : "1",
+    "school":["all"],
+    "grade":["1","2","3"],
+    "kind":["high", "middle"],
+    "created":"20200221",
+    "author":"hyuns",
+    "start_term" : "20200216",
+    "end_term" : "20991230"
+}
