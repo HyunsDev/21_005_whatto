@@ -433,7 +433,7 @@ require_once('src/moudle.php');
     <footer>
     <div class="footer box wow bounceIn">
         <h3><i class="fas fa-info"></i> 내일뭐함 정보</h3>
-        <p style="margin-top: 0"><i class="fas fa-male"></i> 만든 이 : 서령고등학교 1학년 박현우<br>
+        <p style="margin-top: 0"><i class="fas fa-male"></i> 만든 이 : 서령고등학교 2학년 박현우<br>
         <i class="fab fa-discord"></i> 디스코드 : <a href="https://discord.gg/5Gpywph">https://discord.gg/5Gpywph</a><br>
         <i class="far fa-envelope"></i> 메일 : whatto@hyuns.me<br>
         <i class="fas fa-server"></i> 내일뭐함 버전 : #210124</p>
